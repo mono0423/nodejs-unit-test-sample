@@ -1,20 +1,30 @@
 nodejs-unit-test-sample
 ====
 
-Overview
+This repository has Node.js unit testing samples.
 
 ## Description
 
-## Demo
+## How to Run
+only unit testing with mocha
+```bash
+$ mocha
+```
+
+unit testing with coverrage tool
+```bash
+$ node node_modules\nyc\bin\nyc mocha
+```
 
 ## Requirement
-- mocha
-- istanbul
+- [mocha](https://mochajs.org/)
+- [istanbul](https://istanbul.js.org/)
 
 ## Install
 at first
 ```bash
-$ npm install -g mocha istanbul
+$ npm install -g mocha
+$ npm install --save-dev nyc
 $ npm install
 ```
 

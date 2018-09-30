@@ -12,9 +12,15 @@ Overview
 - istanbul
 
 ## Install
+at first
 ```bash
-$ npm install -g mocha
+$ npm install -g mocha istanbul
 $ npm install
+```
+
+and then
+```bash
+$ mocha
 ```
 
 ## Licence

@@ -37,7 +37,7 @@ describe("fizzbuzz", function() {
 describe("fizzbuzz", function () {
     describe("checkFizzBuzz()", function () {
         it("15で割り切れる場合、trueを返す", function () {
-            assert.equal(true, target.checkBuzz(15));
+            assert.equal(true, target.checkFizzBuzz(15));
         });
     });
 });
@@ -45,7 +45,7 @@ describe("fizzbuzz", function () {
 describe("fizzbuzz", function () {
     describe("checkFizzBuzz()", function () {
         it("15で割り切れない場合、falseを返す", function () {
-            assert.equal(false, target.checkFizz(16));
+            assert.equal(false, target.checkFizzBuzz(16));
         });
     });
 });
